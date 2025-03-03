@@ -1,0 +1,29 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  display: block;
+  color: green;
+  font-size: 1.5em;
+  text-decoration: none;
+  padding-bottom: 16px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.hoje {
+  color: brown;
+}
+
+.amanha {
+  color: blue;
+}
+
+.voltar {
+  font-size: 1em;
+  color: blueviolet;
+}
