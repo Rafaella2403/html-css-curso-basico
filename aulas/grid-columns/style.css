@@ -20,26 +20,17 @@
     - https://css-tricks.com/snippets/css/complete-guide-grid/
 */
 
-body, h1, div, a, p {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  padding: 0 16px;
-}
-
-
 .title {
   text-align: center;
   padding: 20px 0;
+  background-color: #A8F;
 }
 
 .items {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+  padding: 16px;
 }
 
 .item {
