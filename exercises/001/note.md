@@ -22,18 +22,3 @@
     Meu nome não é Jhonny - 21:00 - Amanhã
     O Cheiro do ralo - 15:00 - Amanhã
 -->
-
-<!DOCTYPE html>
-<html lang="ptBr">
-
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <title>Exercício 001</title>
-</head>
-
-<body>
-  <a href="./cinema/">Projeto Cinema</a>
-</body>
-
-</html>
