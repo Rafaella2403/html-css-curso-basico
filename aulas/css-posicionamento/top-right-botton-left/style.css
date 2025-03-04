@@ -1,0 +1,42 @@
+/*
+  As propriedades margin, padding e border permitem definir valores diferentes para cada lado da caixa.
+*/
+
+.first-div {
+  background-color: aquamarine;
+  padding: 10px 20px 30px 40px; /* top right bottom left */
+  margin: 10px 20px 30px 40px; /* top right bottom left */
+  border: 10px solid black; /* Define a espessura, estilo e cor da borda */
+}
+
+.second-div {
+  background-color: aqua;
+  padding: 10px 40px; /* top/bottom right/left */
+  margin: 10px 40px; /* top/bottom right/left */
+  border-top: 10px solid green; /* Borda apenas no topo */
+  border-right: 20px dashed red; /* Borda apenas à direita */
+  border-bottom: 30px double blue; /* Borda apenas na parte inferior */
+  border-left: 40px ridge gray; /* Borda apenas à esquerda */
+}
+
+.third-div {
+  background-color: gray;
+  
+  /* Padding individual */
+  padding-top: 10px;    /* Espaço interno apenas no topo */
+  padding-right: 20px;  /* Espaço interno apenas à direita */
+  padding-bottom: 30px; /* Espaço interno apenas na parte inferior */
+  padding-left: 40px;   /* Espaço interno apenas à esquerda */
+
+  /* Margin individual */
+  margin-top: 10px;    /* Espaço externo apenas no topo */
+  margin-right: 20px;  /* Espaço externo apenas à direita */
+  margin-bottom: 30px; /* Espaço externo apenas na parte inferior */
+  margin-left: 40px;   /* Espaço externo apenas à esquerda */
+
+  /* Bordas */
+  border-width: 10px 15px 20px 25px; /* Espessura: top right bottom left */
+  border-style: dotted; /* Estilo da borda */
+  border-color: blueviolet; /* Cor da borda */
+}
+
